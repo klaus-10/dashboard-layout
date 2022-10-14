@@ -1,0 +1,33 @@
+
+.sidebar {
+    overflow-x: hidden;
+    left: -250px !important;
+    position: fixed;
+    width: 250px !important;
+    height: 100vh;
+    z-index: 200;
+    overflow-y: auto;
+    overflow: scroll;
+    background: #edf3fc;
+    transform: translateX(0);
+    -webkit-transition: 250ms ease-in-out;
+    -moz-transition: 250ms ease-in-out;
+    -o-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+    padding: 0 10px;
+  }
+
+  .open {
+    left: 0px !important;
+    -webkit-transform: translateX(0px) !important;
+    -moz-transform: translateX(0px) !important;
+    -o-transform: translateX(0px) !important;
+    -ms-transform: translateX(0px) !important;
+    transform: translateX(0px) !important;
+  overflow-x: hidden;
+    /* transform: translateX(-350px); */
+    z-index: 200;
+    /* transition: left 350ms ease-out;
+    -webkit-transition: left 350ms ease-out; */
+  }
+
