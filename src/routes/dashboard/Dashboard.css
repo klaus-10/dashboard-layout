@@ -9,6 +9,9 @@
 
 .dashboard-content {
     left: 0 !important;
+    height: 100%;
+    width: 100%;
+    /* background: #F9FAFB; */
 }
 
 
@@ -16,8 +19,11 @@
 
 .open-dash{
     /* filter: brightness(30%) !important; */
-    cursor: pointer !important;
+    /* cursor: pointer !important; */
     transition: left 350ms ease !important;
+    /* left: 270px !important; */
+    float: right;
+    width: calc(100% - 270px);
   }
 
 

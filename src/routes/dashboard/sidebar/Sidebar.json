@@ -1,7 +1,24 @@
 {
     "sidebar": [
-        "Dashboard",
-        "Home",
-        "Login"
+        {
+            "text": "Dashboard",
+            "link": "/dashboardapp",
+            "icon": "dashboard"
+        },
+        {
+            "text": "Home",
+            "link": "/home",
+            "icon": "home"
+        },
+        {
+            "text": "Login",
+            "link": "/login",
+            "icon": "login"
+        },
+        {
+            "text": "Product",
+            "link": "/product",
+            "icon": "inventory_2"
+        }
     ]
 }
