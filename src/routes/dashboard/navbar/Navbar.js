@@ -8,6 +8,7 @@ import Button from "@mui/material/Button";
 // icnos
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsIcon from "@mui/icons-material/Notifications";
+import MenuIcon from "@mui/icons-material/Menu";
 import "./Navbar.css";
 import { Divider } from "@mui/material";
 import { UserContex } from "../../../UserContext";
@@ -37,7 +38,7 @@ export default function Navbar(props) {
         </div>
       ) : (
         <div style={{ cursor: "pointer" }} onClick={props.openSide}>
-          {props.side ? "closed" : "open"}
+          {props.side ? "" : <MenuIcon />}
         </div>
       )}
 

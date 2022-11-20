@@ -5,6 +5,7 @@ import { UserContex } from "./UserContext";
 import logo from "./logo.svg";
 import "./App.css";
 import Dashboard from "./routes/dashboard/Dashboard";
+import Log from "./routes/login/Log";
 
 function App() {
   const [value, setValue] = useState(true);
@@ -14,6 +15,7 @@ function App() {
         <div className="App">
           <Routes>
             <Route path="/" exact element={<Dashboard />} />
+            <Route path="/log" exact element={<Log />} />
           </Routes>
         </div>
       </Router>

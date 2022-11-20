@@ -29,8 +29,8 @@
   z-index: 200;
   overflow-y: auto;
   overflow: scroll;
-  border-right: solid 1px #9aa3aa;
-  /* background: #edf3fc; */
+  border-right: solid 1px #e0e4e7;
+  background: #edf3fc !important;
   transform: translateX(0);
   -webkit-transition: 250ms ease-in-out;
   -moz-transition: 250ms ease-in-out;
@@ -53,7 +53,6 @@
     -webkit-transition: left 350ms ease-out; */
 }
 
-
 /* account-slide-box selected item  */
 
 .css-h4y409-MuiList-root {
@@ -71,16 +70,15 @@
   border-radius: 10px !important;
 }
 
-.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
   border-radius: 10px !important;
 }
 
 .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
-    background-color: #0075ff !important;
-      /* color: #fbfdff !important; */
-      border-radius: 10px !important;
+  background-color: #0075ff !important;
+  /* color: #fbfdff !important; */
+  border-radius: 10px !important;
 }
-
 
 .slide-text {
   color: #aeb8cb !important;
@@ -104,17 +102,15 @@
   padding: 10px 0;
 }
 
-
 .sidebar-logo {
   padding: 20px !important;
 }
 
-.sidebar-logo-icon svg{
+.sidebar-logo-icon svg {
   fill: #637b92 !important;
   width: 40px !important;
   height: 40px !important;
 }
-
 
 .sidebar-logo-admin {
   padding: 16px 20px !important;
@@ -123,7 +119,7 @@
   gap: 10px;
 }
 
-.slide-admin-text span{
+.slide-admin-text span {
   font-size: 14px !important;
   font-weight: bold !important;
   color: #637b92 !important;
@@ -133,7 +129,7 @@
   background: white !important;
 } */
 
-.css-cveggr-MuiListItemIcon-root span svg{
+.css-cveggr-MuiListItemIcon-root span svg {
   fill: white !important;
 }
 
