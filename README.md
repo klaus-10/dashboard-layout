@@ -1,3 +1,13 @@
+# Dashboard Overview
+
+### Home
+
+![Alt Text](src/assets/app-screen/home.png)
+
+### Home-resized
+
+![Alt Text](src/assets/app-screen/home-resized.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
